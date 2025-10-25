@@ -1,13 +1,13 @@
 provider "aws" {
-region = "us-east-1"
+region = "ap-south-1"
 }
 
 resource "aws_instance" "three" {
   count         = 2
-  ami           = "ami-00ca32bbc84273381"
-  instance_type = "t2.micro"
+  ami           = ""ami-00af95fa354fdb788
+  instance_type = "t3.micro"
 
   tags = {
-    Name = "test-server"
+    Name = "thanuja-server"
   }
 }
