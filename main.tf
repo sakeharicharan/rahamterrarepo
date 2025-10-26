@@ -8,6 +8,6 @@ resource "aws_instance" "three" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "thanuja-server"
+    Name = "hari-server"
   }
 }
